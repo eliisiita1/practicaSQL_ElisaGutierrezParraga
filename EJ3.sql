@@ -1,5 +1,5 @@
 CREATE OR REPLACE TABLE
-  keepcoding-bd.keepcoding.ivr_detail AS
+  keepcoding.ivr_detail AS
 SELECT
   c.ivr_id AS calls_ivr_id,
   c.phone_number AS calls_phone_number,
